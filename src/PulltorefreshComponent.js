@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
-import './EventComponent.css';
+import './PulltorefreshComponent.css';
 
-export default class EventComponent extends React.Component {
+export default class PulltorefreshComponent extends React.Component {
 
 
     constructor(props) {

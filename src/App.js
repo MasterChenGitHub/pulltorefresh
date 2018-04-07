@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import EventComponent from "./EventComponent";
+import PulltorefreshComponent from "./PulltorefreshComponent";
 
 class App extends Component {
 
@@ -32,7 +32,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-          <EventComponent />
+          <PulltorefreshComponent />
       </div>
     );
   }
