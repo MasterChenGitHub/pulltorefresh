@@ -1,0 +1,42 @@
+.refreshHead {
+    background-color: #00ff00;
+    transition: all 1s;
+    z-index: -1;
+    position: relative;
+}
+
+.loading {
+    height: 50px;
+}
+
+.gone {
+    display: none;
+}
+.headLoading{
+
+}
+.headLoadingIcon {
+    position: absolute;
+    height: 30px;
+    bottom: 10px;
+    left:116px;
+}.headLoadingText {
+    position: absolute;
+    height: 30px;
+    bottom: 10px;
+    left:160px;
+}
+
+.playAnimation {
+    animation: App-logo-spin infinite 2s linear;
+
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
